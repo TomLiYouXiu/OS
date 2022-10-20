@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Demo04Server - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\57343\AppData\Local\Temp\RSP6740.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /D "_AFXDLL" /Fp"Debug/Demo04Server.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\石家庄铁道四方学院\操作系统\Demo04Server\Demo04Server.cpp"
+]
+Creating command line "cl.exe @C:\Users\57343\AppData\Local\Temp\RSP6740.tmp" 
+Creating temporary file "C:\Users\57343\AppData\Local\Temp\RSP6751.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Demo04Server.pdb" /debug /machine:I386 /out:"Debug/Demo04Server.exe" /pdbtype:sept 
+".\Debug\Demo04Server.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Demo04Server.res"
+]
+Creating command line "link.exe @C:\Users\57343\AppData\Local\Temp\RSP6751.tmp"
+<h3>Output Window</h3>
+Compiling...
+Demo04Server.cpp
+E:\石家庄铁道四方学院\操作系统\Demo04Server\Demo04Server.cpp(53) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+E:\石家庄铁道四方学院\操作系统\Demo04Server\Demo04Server.cpp(67) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+E:\石家庄铁道四方学院\操作系统\Demo04Server\Demo04Server.cpp(77) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+E:\石家庄铁道四方学院\操作系统\Demo04Server\Demo04Server.cpp(84) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+E:\石家庄铁道四方学院\操作系统\Demo04Server\Demo04Server.cpp(91) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Linking...
+
+
+
+<h3>Results</h3>
+Demo04Server.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
